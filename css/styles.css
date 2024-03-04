@@ -507,7 +507,7 @@ img {
 }
 
 .subscribe-input {
-  width: 100%;
+  width: 264px;
   border: 1px solid #fff;
   border-radius: 4px;
   height: 40px;
@@ -590,7 +590,7 @@ img {
   transform: translate(-50%, -50%) scale(1);
   width: 408px;
   min-height: 584px;
-  padding: 24px;
+  padding: 72px 24px 24px 24px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
   background-color: #fcfcfc;
@@ -614,14 +614,22 @@ img {
   justify-content: center;
   align-items: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-btn:hover,
 .close-btn:focus {
   background-color: #404bbf;
   border: none;
+}
+
+.cross-icon {
+  fill: #2e2f42;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.cross-icon:hover,
+.cross-icon:focus {
   fill: #ffffff;
 }
 
@@ -648,7 +656,7 @@ img {
 .review-form-lebel {
   display: block;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
   margin-bottom: 4px;
@@ -662,7 +670,7 @@ img {
   height: 40px;
   padding-left: 38px;
   border-radius: 4px;
-  border: 1.25px solid rgba(46, 47, 66, 0.4);
+  border: 1px solid rgba(46, 47, 66, 0.4);
   background-color: transparent;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -695,15 +703,16 @@ img {
   background-color: transparent;
   outline: transparent;
   padding: 8px 16px;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.review-form-comment::placeholder {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: #d9d9d9;
+  color: rgba(46, 47, 66, 0.4);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+/* .review-form-comment::placeholder {
+  color: #d9d9d9;
+} */
 
 .review-form-comment:hover,
 .review-form-comment:focus {
@@ -728,7 +737,7 @@ img {
 
 .form-checkbox-label {
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
