@@ -614,26 +614,23 @@ img {
   justify-content: center;
   align-items: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-btn:hover,
 .close-btn:focus {
   background-color: #404bbf;
   border: none;
-  fill: #ffffff;
 }
 
-/* .cross-icon {
-  fill: #2e2f42;
+.cross-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .cross-icon:hover,
 .cross-icon:focus {
   fill: #ffffff;
-} */
+}
 
 .modal-title {
   font-weight: 500;
