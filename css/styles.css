@@ -464,7 +464,6 @@ img {
 .social-media-list {
   display: flex;
   gap: 16px;
-  margin-right: 80px;
 }
 
 .social-media-list-item {
@@ -495,6 +494,10 @@ img {
 .subscribe-form {
   display: flex;
   gap: 24px;
+}
+
+.subscribe-box {
+  margin-left: auto;
 }
 
 .subscribe-title {
@@ -637,11 +640,6 @@ img {
   color: #2e2f42;
   max-width: 360px;
   margin-bottom: 16px;
-  margin-top: 48px;
-}
-
-.review-form {
-  margin-bottom: 24px;
 }
 
 .review-form-wrapper {
